@@ -1,0 +1,50 @@
+:root{
+    --color-white: #fff;
+    --color-primary: #00bcd4;
+    --color-secondary: #f9f9f9;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+  }
+
+.igstory__wrapper{
+    background-color: var(--color-white);
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    .igstory__menu-tool-bar{
+        background: var(--color-secondary);
+        height: 95vh;
+        max-width: 15%;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        padding: 30px;
+    }
+    .igstory__canvas{
+        background: var(--color-white);
+        height: 95vh;
+        max-width: 85%;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        align-content: center;
+        .igstory__canvas-screen{
+            width: 1080px;
+            height: 1920px; 
+            background: green;
+            margin: 0;
+            transform: scale(0.3);
+            box-shadow: 0 0 50px rgba(0,0,0,0.2);
+            background: url(https://images.unsplash.com/photo-1604076850742-4c7221f3101b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2731&q=80);
+            background-size: cover;
+            background-position: center;
+            padding: 80px;
+            box-sizing: border-box;
+        }
+    }
+}
